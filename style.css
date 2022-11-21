@@ -9,13 +9,49 @@ img {
 /*  END */
 
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+.container {
+    margin: 0 200px;
+}
+
 .header {
     background-color: #1f2937;
-    
+    color: #f9faf8;
+}
+
+.top_header {
+    display: flex;
+}
+
+.header_logo {
+    flex: 1;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right_links {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .content {
