@@ -1,2 +1,36 @@
 /* STYLESHEET */
 
+/* INITAL SET UP*/
+img {
+    width: 100px;
+    height: auto;
+}
+
+/*  END */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    
+}
+
+.content {
+
+}
+
+.quote_block {
+    background-color: #e5e7eb;
+}
+
+
+.action {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+}
