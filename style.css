@@ -1,13 +1,5 @@
 /* STYLESHEET */
 
-/* INITAL SET UP*/
-img {
-    width: 100px;
-    height: auto;
-}
-
-/*  END */
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -154,11 +146,39 @@ a {
     padding-right: 100px;
 }
 
+.another_action{
+    margin: 50px;
+}
 
 .action {
     background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+.action_left {
+    flex: 3;
+}
+
+.action_title {
+    font-weight: 900;
+}
+
+
+#signup_two {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
 }
 
 .footer {
     background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
