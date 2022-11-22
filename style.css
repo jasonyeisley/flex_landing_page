@@ -104,11 +104,54 @@ a {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
 
+.content_title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.content_images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img_and_subtext {
+    text-align: center;
+    width: 150px;
+}
+
+.img_and_subtext > img {
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    height: 150px;
+    width: 150px;
 }
 
 .quote_block {
     background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote_attribute {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 100px;
 }
 
 
